@@ -28,7 +28,7 @@ const routes = [
     component: <MainDashboard />,
   },
   {
-    name: "NFT Marketplace",
+    name: "Skills",
     layout: "/admin",
     path: "nft-marketplace",
     icon: <MdOutlineShoppingCart className="h-6 w-6" />,
@@ -49,19 +49,19 @@ const routes = [
     icon: <MdPerson className="h-6 w-6" />,
     component: <Profile />,
   },
-  {
-    name: "Sign In",
-    layout: "/auth",
-    path: "sign-in",
-    icon: <MdLock className="h-6 w-6" />,
-    component: <SignIn />,
-  },
-  {
-    name: "RTL Admin",
-    layout: "/rtl",
-    path: "rtl",
-    icon: <MdHome className="h-6 w-6" />,
-    component: <RTLDefault />,
-  },
+  // {
+  //   name: "Sign In",
+  //   layout: "/auth",
+  //   path: "sign-in",
+  //   icon: <MdLock className="h-6 w-6" />,
+  //   component: <SignIn />,
+  // },
+  // {
+  //   name: "RTL Admin",
+  //   layout: "/rtl",
+  //   path: "rtl",
+  //   icon: <MdHome className="h-6 w-6" />,
+  //   component: <RTLDefault />,
+  // },
 ];
 export default routes;

@@ -35,11 +35,11 @@ function CheckTable(props) {
         </div>
       ),
     }),
-    columnHelper.accessor("artworks", {
-      id: "artworks",
+    columnHelper.accessor("exp", {
+      id: "exp",
       header: () => (
         <p className="text-sm font-bold text-gray-600 dark:text-white">
-          ARTWORKS
+          Exp.
         </p>
       ),
       cell: (info) => (
@@ -78,7 +78,7 @@ function CheckTable(props) {
     <Card extra={"w-full sm:overflow-auto px-6"}>
       <header className="relative flex items-center justify-between pt-4">
         <div className="text-xl font-bold text-navy-700 dark:text-white">
-          Check Table
+          Skills
         </div>
 
         <button className="dark:active-bg-white-20 linear rounded-md bg-lightPrimary px-4 py-2 text-base font-medium text-brand-500 transition duration-200 hover:bg-gray-100 active:bg-gray-200 dark:bg-white/5 dark:text-white dark:hover:bg-white/10">
